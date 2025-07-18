@@ -4,17 +4,17 @@ import asyncio
 async def func1():
     await asyncio.sleep(1)
     print("func1")
-    return "L"
+    return "func1"
 
 async def func2():
     await asyncio.sleep(1)
     print("func2")
-    return "L"
+    return "func2"
 
 async def func3():
     await asyncio.sleep(1)
     print("func3")
-    return "L"
+    return "func3"
 
 # async def main():
 #     task = asyncio.create_task(func1())
